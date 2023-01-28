@@ -1,0 +1,41 @@
+.carausel-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.carausel{
+    width: 70%;
+}
+.carausel-img{
+    border-radius: 20px;
+}
+.carausel-right-img{
+    min-width: 200px;
+    width: 22%;
+    min-height: 200px;
+    /* margin-left: -80px; */
+}
+.carausel-right-respons-img{
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .carausel-container{
+        display: block;
+        padding: 20px 10px;
+    }
+    .carausel{
+        width: 100%;
+    }
+    .carausel-img{
+        width: 100%;
+    }
+    .carausel-right-img{
+        display: none;
+    }
+    .carausel-right-respons-img{
+        display: block;
+        margin-top: 30px;
+    }
+}

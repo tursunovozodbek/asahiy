@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slide-swiper-center {
+    background-color: white;
+    padding: 40px 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 140px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+} 
+.card-image {
+    padding: 30px;
+}
+.card-image .rasm {
+    width: 100px;
+}
+ .slide-swiper-center .swiper-slide {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+} 
+/* Download */
+.download-container {
+    width: 1278px;
+    height: 250px;
+    margin: 40px auto;
+    background-color: #008dff;
+    color: #fff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.download-container .download-image {
+    height: 270px;
+}
+.download {
+    text-align: center;
+}
+
+.btn-group img {
+    width: 140px;
+    margin-right: 20px;
+}

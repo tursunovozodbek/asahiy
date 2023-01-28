@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Enter-container {
+    display: flex;
+    width: 100%;
+}
+.left-side {
+    float: left;
+    width: 55%;
+    padding: 0 20px;
+}
+.left-side .Enter-title {
+    font-size: 24px;
+    color: #000;
+}
+.left-side .modal-phone {
+    padding: 25px 20px;
+    font-size: 13px;
+}
+.left-side .modal-phone label {
+    display:block;
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.left-side .modal-phone input {
+    width: 310px;
+    padding: 8px 12px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.left-side .modal-phone button {
+    width: 310px;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    background-color: #008dff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px ;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.left-side .modal-phone button::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background:#006ac1;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.left-side .modal-phone button:hover,
+.left-side .modal-phone button:focus,
+.left-side .modal-phone button:active {
+  color: #fff;
+}
+.left-side .modal-phone button:hover:before,
+.left-side .modal-phone button:focus:before,
+.left-side .modal-phone button:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  border-radius: 10px;
+  background-color: #006ac1;
+}
+.right-side {
+    float: right;
+    width: 45%;
+    background-color: #F4F7FD;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 0; */
+}
+.box {
+    display: flex;
+    align-items: flex-start;
+    margin: 18px 0;
+    margin-top: 0;
+}
+.box img {
+    margin: 10px 15px;
+}
+.box .box-item strong{
+    font-size: 18px;
+}
+.box .box-item span {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+    font-size: 13px;
+}

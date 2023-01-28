@@ -1,0 +1,23 @@
+.App{
+  background-color: #F4F7FD;
+}
+body::-webkit-scrollbar {
+    width: 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }
+  
+  /* Track */
+body::-webkit-scrollbar-track {
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #008DFF; 
+    /* border-radius: 10px; */
+  }
+  
+  /* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #008DFF; 
+  }

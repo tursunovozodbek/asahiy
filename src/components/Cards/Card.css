@@ -1,0 +1,203 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 430px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    padding: 17px 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.top-image{
+    display: flex;
+}
+.top-image p{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    width: 35%;
+    min-width: 50px;
+    padding: 3px;
+    background-color: #EA8B00;
+    color: #fff;
+    border-radius: 7px;
+}
+.top-image-icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.card-shop-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #008DFF;
+    border-radius: 8px;
+}
+.card-item-name{
+    padding: 8px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.card-item-name span{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    transition: .5s;
+}
+.card-item-name span:hover{
+    color: #008Dff;
+}
+.card-item-star-container{
+    margin-top: -10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.card-item-star-container span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    margin-left: 10px;
+}
+.card-item-price-container{
+    padding: 0px 7px;
+}
+.button-container{
+    width: 100%;
+    padding: 20px 5px;
+    display: flex;
+    align-items: center;
+}
+.button-container .card-but1{
+    width: 40%;
+    min-width: 50px;
+    border: none;
+    height: 40px;
+    background-color: #00CC97;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.button-container .card-but1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background:#00986f;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.button-container .card-but1:hover,
+.button-container .card-but1:focus,
+.button-container .card-but1:active {
+    color: #fff;
+}
+.button-container .card-but1:hover:before,
+.button-container .card-but1:focus:before,
+.button-container .card-but1:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    border-radius: 10px;
+    background-color: #00986f;
+}
+
+.button-container .card-but2{
+    width: 60%;
+    min-width: 100px;
+    border: none;
+    height: 40px;
+    background-color: #008DFF;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.button-container .card-but2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background:#006ac1;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .button-container .card-but2:hover,
+  .button-container .card-but2:focus,
+  .button-container .card-but2:active {
+    color: #fff;
+  }
+  .button-container .card-but2:hover:before,
+  .button-container .card-but2:focus:before,
+  .button-container .card-but2:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    border-radius: 10px;
+    background-color: #006ac1;
+  }
